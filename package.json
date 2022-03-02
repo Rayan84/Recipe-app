@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/Rayan84/Recipe-app/issues"
   },
-  "homepage": "https://github.com/Rayan84/Recipe-app#readme"
+  "homepage": "https://github.com/Rayan84/Recipe-app#readme",
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.8.1"
+  }
 }
