@@ -43,8 +43,6 @@ Style/FrozenStringLiteralComment:
 Style/EndOfLine:
   EnforcedStyle: lf
 
-Layout/EndOfLine:
-   Enabled: False
 Layout/HashAlignment:
   EnforcedColonStyle: key
 Layout/ExtraSpacing:

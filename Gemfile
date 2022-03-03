@@ -3,11 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.1'
 
-# Devise gem
-gem 'devise'
-
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.1'
+
+gem 'cancancan'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
@@ -31,6 +30,7 @@ gem 'turbo-rails'
 gem 'stimulus-rails'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
+gem 'devise'
 gem 'jbuilder'
 
 # Use Redis adapter to run Action Cable in production
