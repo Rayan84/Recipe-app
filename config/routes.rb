@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :users 
+ # get 'users#sign_in', to: 'users#index'
   root to: 'users#index'
   resources :users
   resources :foods, only: [:index, :new, :create, :destroy]
+
 
   resources :recipes, only: %i[index show create destroy] do
     resources :recipe_foods, only: %i[create destroy]
