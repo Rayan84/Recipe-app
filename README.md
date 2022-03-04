@@ -46,7 +46,7 @@ $ bundle exec rspec ./spec/features/login_spec.rb
 
 - LinkedIn: [Alexander Odufuye](https://www.linkedin.com/in/codingrex/)
 
-👤 **Rayan Rayan**
+👤 **Rayan Rassam**
 
 - GitHub: [@Rayan84](https://github.com/Rayan84)
 - Twitter [@Rayan](https://twitter.com/Rayan Shamoon)
